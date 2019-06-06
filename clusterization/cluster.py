@@ -14,7 +14,7 @@ class Cluster():
     def getDados(self):
         frases = []
         original = []
-        with open('clusterization/lista_total.csv', 'r', encoding="utf8") as file:
+        with open('datasets/lista_total.csv', 'r', encoding="utf8") as file:
             reader = csv.reader(file)
             for row in reader:
                 frases.append(
